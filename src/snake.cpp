@@ -57,8 +57,6 @@ bool CSnake::handleEvent(int key) {
 
     else if (gamestate == HELP || gamestate == PAUSED) {
         switch (key) {
-            case '\t':
-                return false;
             case 'r':
             case 'R':
                 restart_game();
